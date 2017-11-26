@@ -199,7 +199,7 @@ header{
 
 	font-family: 'Russo One', serif;
 
-	border: 1px solid red;
+
 	background-color: yellow;
 	padding: 80px 0px;
 
@@ -208,19 +208,26 @@ header{
 .fried-burger-content{
 	position: relative;
 
-	border:1px solid white;
+
+
 }
 
 .fried-burger-content .img{
 	position: absolute;
 
-	top: 0px;
-	left: -30%;
+	top: 12%;
+	left: -50%;
 
 	width: 300px;
 	height: 300px;
+	transition: .2s;
 
+} 
+.fried-burger-content-area:hover .fried-burger-content .img {
+	left: -20%;
+	transform: scale(1.2,1.2);
 }
+
 .fried-burger-content .img img{
 
 	width: 100%;
@@ -231,8 +238,116 @@ header{
 .fried-burger-img-content{
 	position: relative;
 	z-index: 333px;
-	width: 40%;
+	width: 65%;
+
+	margin-left:35%;
+
+}
+
+
+
+.fried-burger-img-content p:first-of-type{
+	
+	padding: 10px 12px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 50%;
+	margin-bottom: 20px;
+
+}
+
+.fried-burger-img-content h1{
+	font-size: 70px;
+	text-transform: uppercase;
+}
+
+.fried-burger-img-content p a{
+	color: red;
+}
+
+.fried-burger-content-right {
+
+	padding: 40px;
 	text-align: center;
+
+	border:1px solid transparent;
+	box-shadow: 0px 0px 1px transparent;
+
+	transition: .2s;
+
+
+}
+.fried-burger-content-right:hover {
+	border:1px solid rgba(228,0,43,.3);
+	box-shadow: 0px 0px 1px rgba(228,0,43,.3);
+}
+
+.fried-burger-content-right h1 {
+	
+	font-size: 70px;
+	text-transform: uppercase;
+	
+	margin-bottom: 10px;
+
+
+}
+
+.fried-burger-content-right p{
+
+	font-size: 17px;
+	margin-bottom: 10px;
+
+}
+.fried-burger-content-right a{
+
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 8px;
+}
+
+
+/*Latest blog news */
+
+.blog-latest-news-area{
+	padding: 80px 0px;
+	position: relative;
+	height: 900px;
+	max-height: 450px;
+
+}
+
+.blog-latest-curve-area:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom: 450px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 1366px solid yellow;
+}
+
+
+
+.blog-latest-img-area{
+
+	margin-top: 150px;
+	width: 50%;
+}
+
+.news-hader{
+	font-family: 'Russo One', serif;
+	position: absolute;
+	top: 20%;
+	right: 0px;
+
+	z-index: 999;
+
+	color:#E4002B;
+}
+.news-hader h1{
+	font-size: 50px;
 }
 
 
@@ -245,5 +360,46 @@ header{
 
 
 
+/*Footer area start*/
+
+footer{
+	padding: 40px 0px;
+	background-color: green;
+	color:white;
+}
 
 
+footer .footer-content{
+
+	padding: 20px 10px;
+}
+
+footer .footer-content h4{
+	font-weight: bolder;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+footer .footer-content ul{
+	list-style: none;
+}
+
+footer .footer-content ul li{
+	
+}
+
+footer .footer-content ul li a{
+	color:white;
+	display: block;
+	padding: 6px 0px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.footer-content a img{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	margin-left: 6px;
+}
