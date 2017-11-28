@@ -311,8 +311,7 @@ header{
 .blog-latest-news-area{
 	padding: 80px 0px;
 	position: relative;
-	height: 900px;
-	max-height: 450px;
+
 
 }
 
@@ -326,15 +325,40 @@ header{
     border-bottom: 450px solid transparent;
     border-left: 0px solid transparent;
     border-right: 1366px solid yellow;
+
+
 }
 
 
 
 .blog-latest-img-area{
-
 	margin-top: 150px;
-	width: 50%;
+	width: 70%;
+	padding: 10px;
+	font-family: 'Russo One', serif;	
+	font-weight: lighter;
+
+
 }
+.blog-latest-img-area h2{
+	
+	margin-bottom: 15px;
+
+}
+
+.blog-latest-img-area a img{
+		width: 500px;
+		height: 300px;
+		margin-bottom: 10px;
+}
+
+.blog-latest-img-area p+p{
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
 
 .news-hader{
 	font-family: 'Russo One', serif;
@@ -350,10 +374,120 @@ header{
 	font-size: 50px;
 }
 
+/*Moto area*/
+.moto-area{
+
+	background-image: url('../../asserts/images/moto.jpg');
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 60px 0px;
+
+
+	height: 600px;
+	max-height: 250px;
+
+	text-align: center;
+	background-attachment: fixed;
+
+}
+
+.title-moto h1{
+	color:#FFFF00;
+
+	font-size: 60px;
+	font-weight: 1000;
+	text-transform: uppercase;
+	margin-top: 20px;
+
+}
 
 
 
+/*Our food page*/
 
+
+.page-title-header{
+	background-image: url('../../asserts/images/page-banner.jpg');	
+	background-position: center;
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	padding: 70px 0px;
+
+	max-height: 220px;
+
+	background-attachment: fixed;
+
+
+}
+
+.page-title{
+	text-align: center;
+
+}
+
+.page-title h1{
+
+
+	font-weight: bolder;
+	color: black;
+	width: 40%;
+	margin: auto;
+	padding: 10px 0px;
+	background-image: url('../../asserts/images/bar.png');
+
+	background-position: center;
+
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	background-repeat: no-repeat;
+
+	text-transform: uppercase;
+
+}
+
+
+.food-categories{
+	padding: 60px 0px;
+}
+
+
+.food-categories .controls button{
+	outline: none;
+	
+}
+
+
+.items:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.items{
+	width: 100%;
+	border: 1px solid green;
+	margin-top: 20px;
+	padding-top: 9px;
+}
+.items .mix{
+	width: 32%;
+	float: left;
+	height: 190px;
+	background-color: red;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.mix img{
+	width: 100%;
+	height: 100%;
+}
 
 
 
