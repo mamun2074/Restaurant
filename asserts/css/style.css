@@ -674,7 +674,7 @@ header{
 
 
 .blog-area{
-	border: 1px solid black;
+
 	padding: 70px 0px;
 	font-family: 'Russo One', serif;
 }
@@ -683,6 +683,7 @@ header{
 	border-bottom: 1px dotted black;
 	margin-bottom: 30px;
 	padding-bottom: 15px;
+
 }
 
 
@@ -709,6 +710,7 @@ header{
 .blog-gallery{
 	width: 100%;
 	height: 300px;
+
 	overflow: hidden;
 	margin-bottom: 15px;
 }
@@ -716,16 +718,23 @@ header{
 	width: 100%;
 	height: 100%;
 
-
 }
 
+.blog-content .video-post{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 15px;
+}
+.blog-content .video-post iframe{
+	width: 100%;
+	height: 100%;
+}
 
 
 /*Widgets area*/
 .blog-right-widget{
 
 }
-
 
 .widgets{
 	padding: 10px 0px;
@@ -740,22 +749,220 @@ header{
 	background-repeat: no-repeat;
 	padding: 30px 0px;
 
-
 }
 
 
-.widgets > ul{
+.categories  ul{
 	list-style: none;
 }
-.widgets > ul li{
+.categories  ul li{
 
 }
-.widgets > ul li a{
+.categories  ul li a{
 	display: block;
 	margin-bottom: 10px;
 	border-bottom: 1px dotted black;
 	padding-bottom: 5px;
+	transition:.1s;
 }
+.categories  ul li:hover a{
+	color:red;
+}
+
+.widget-latest{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted black;
+	padding-bottom: 10px;
+
+}
+
+.widget-latest:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.widget-latest .widget-latest-img{
+	float: left;
+	width: 38%;
+	height: 100%;
+
+
+}
+.widget-latest .widget-latest-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.widget-latest .widget-latest-content{
+	float: right;
+	width: 58%;
+
+}
+
+.widget-latest .widget-latest-content a > h5{
+	
+	font-size: 16px;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+
+}
+
+.widget-latest .widget-latest-content a+p{
+	font-size: 11px;
+}
+.widget-latest .widget-latest-content p+p{
+	font-size: 13px;
+}
+
+/*Widgets tags*/
+
+.tags ul{
+	list-style: none;
+	text-align: center;
+}
+
+.tags ul li{
+	display: inline-block;
+}
+.tags ul li a{
+	display: block;
+	border: 1px dotted black;
+	margin-right: 3px;
+	padding: 5px 8px;
+	margin-bottom: 8px;
+	text-align: center;
+	transition: .1s;
+	
+}
+.tags ul li:hover a{
+	
+	color: red;
+	
+}
+
+/*Instragram widget area*/
+.widget-instragram-area{
+	width: 100%;
+
+}
+
+.widget-instragram-area:after{
+	content: '';
+	display: block;
+	clear: both;
+
+}
+
+.widget-instragram{
+	float: left;
+	width: 33.3%;
+	height: 90px;
+	position: relative;
+	overflow: hidden;
+
+	cursor: pointer;
+
+
+
+}
+.widget-instragram img{
+	width: 100%;
+	height: 100%;
+
+	transition: .5s;
+}
+
+
+.blar{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	bottom: 0%;
+	margin: auto;
+	background-color: rgba(0,0,0,.3);
+
+	transition: 1s;
+
+	border-radius: 0%;
+	display: block;
+
+}
+
+.widget-instragram:hover .blar{
+	display: none;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	transition: 1s;
+
+
+}
+
+.widget-instragram:hover img{
+	transform: scale(1.1,1.1);
+	
+}
+
+/*Subscribe*/
+.subscribe-mail{
+	
+	background-color: red;
+	padding: 20px;
+	border-radius: 5px;
+
+}
+.subscribe-mail input{
+	border:1px solid transparent;
+	outline: none;
+	padding: 4px 3px;
+	border-radius: 2px;
+}
+.subscribe-mail input[type='text']{
+	width: 60%;
+
+
+}
+.subscribe-mail input[type='submit']{
+	width: 35%;
+	background-color: yellow;
+	padding: 5px;
+	cursor:pointer;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+/*Banner wedget*/
+.widget-banner{
+	width: 100%;
+	height: 200px;
+}
+
+.widget-banner img{
+	width: 100%;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
