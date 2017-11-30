@@ -4,6 +4,15 @@ body{
 	/*font-family: 'Russo One', serif;	*/
 
 }
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+a{
+
+	color: black;
+}
+
 div,a, p, h1,h2,h3,h4,h5,h6,nav,ul{
 	margin: 0px;
 	padding: 0px;
@@ -119,6 +128,10 @@ header{
 .main-menu ul span{
 	font-size: 25px;
 	color: white;
+}
+
+.active{
+	text-decoration: underline;
 }
 
 
@@ -409,7 +422,7 @@ header{
 
 
 .page-title-header{
-	background-image: url('../../asserts/images/page-banner.jpg');	
+		
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -488,6 +501,269 @@ header{
 	width: 100%;
 	height: 100%;
 }
+
+
+/*Career Page*/
+
+.search-job-area{
+
+	padding: 60px 0px;
+
+	background-repeat: no-repeat;
+
+	background-size: 100% 100%;
+
+
+}
+
+.search-area{
+	padding: 20px 0px;
+	background-color: rgba(228,0,43,.2);
+	color: white;
+	border-radius: 2px;
+}
+
+.search-job-text{
+
+}
+
+.search-job-text h1{
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+
+.search{
+
+}
+
+.search-job p{
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+
+.search-job input[type='text']{
+	border: 1px solid transparent;
+	outline: none;
+	width: 100%;
+	padding:5px 6px;
+	border-radius: 3px;
+	font-weight: bolder;
+}
+.search-job input[type='submit']{
+	margin-top: 25px;
+	padding:5px 10px;
+	border: 1px solid white;
+	outline: none;
+	border-radius: 3px;	
+	color: white;
+	background-color: transparent;
+	text-transform: uppercase;
+
+	cursor:pointer;
+
+}
+
+/*Looking for a job*/
+.differetn-job-area{
+	font-family: 'Russo One', serif;	
+
+	padding: 50px 0px;
+}
+
+.differetn-job-title{
+
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.restaurent-area{
+
+	text-align: center;
+}
+
+.restaurent-area img{
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.restaurent-area a{
+	display: block;
+	padding: 8px 12px;
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+.restaurent-area a:hover{
+	text-decoration: none;
+}
+
+
+/*Sign up*/
+.sign-up-alart-area{
+
+}
+.youtube{
+	width: 100%;
+	height: 100%;
+
+
+}
+
+.youtube iframe{
+	width: 100%;
+	height: 100%;	
+
+}
+
+.sign-up{
+	background-color: #ECECEC;
+	font-family: 'Russo One', serif;
+
+}
+.sign-up .sign{
+	padding: 20px 0px;
+
+}
+.sign-up .sign h4{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.sign-up .sign input, .sign-up .sign label{
+	display: block;
+}
+.sign-up .sign input{
+	display: block;
+	margin-bottom: 10px;
+	font-family: 'Poiret One', serif;
+	outline: none;
+	width: 100%;
+	padding: 5px;
+	text-transform: capitalize;
+}
+.sign-up .sign input[type="submit"]{
+	display: block;
+	border: 1px solid transparent;
+	background-color: red;
+	color: white;
+	font-family: 'Russo One', serif;	
+
+	cursor:pointer;
+}
+
+
+.sign-up .sign label{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	text-transform: uppercase;
+
+}
+
+/*Blog page */
+
+
+.blog-area{
+	border: 1px solid black;
+	padding: 70px 0px;
+	font-family: 'Russo One', serif;
+}
+
+.blog-content{
+	border-bottom: 1px dotted black;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+}
+
+
+.blog-img{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+}
+.blog-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.blog-content a h2{
+	margin-bottom: 15px;
+}
+.blog-content p{
+	margin-bottom: 10px;
+}
+
+
+/*Gallery blog post*/
+
+.blog-gallery{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.blog-gallery img{
+	width: 100%;
+	height: 100%;
+
+
+}
+
+
+
+/*Widgets area*/
+.blog-right-widget{
+
+}
+
+
+.widgets{
+	padding: 10px 0px;
+}
+.widgets h3{
+
+	margin-bottom: 10px;
+	color: black;
+	text-align: center;
+	background-image: url('../../asserts/images/bar.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 30px 0px;
+
+
+}
+
+
+.widgets > ul{
+	list-style: none;
+}
+.widgets > ul li{
+
+}
+.widgets > ul li a{
+	display: block;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted black;
+	padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
 
 
 
