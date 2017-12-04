@@ -79,6 +79,54 @@ header{
 	letter-spacing: 1px;
 
 }
+ .menu-top ul li a[data-toggle="modal"]{
+	color:white;
+	cursor: pointer;
+
+}
+ .menu-top ul li a[data-toggle="modal"]:hover{
+
+	color:white;
+}
+
+/*Modal in login*/
+
+.modal-body{
+
+}
+
+ .menu-top ul li .modal-body{
+	
+
+}
+ .menu-top ul li .modal-body label{
+	
+	font-weight: bold;
+	color: black;
+
+}
+
+ .menu-top ul li .modal-body input{
+	
+	display: block;
+	border:1px solid #E9ECEF;
+
+	margin: auto;
+	font-weight: bold;
+	color: black;
+
+	margin-bottom: 5px;
+	
+}
+
+
+
+
+
+
+
+
+
 
 
 .menu-top ul li input{
@@ -1159,6 +1207,130 @@ header{
 
 
 }
+
+
+/*Special area*/
+.special-event-area{
+	overflow: hidden;
+
+	font-family: 'Russo One', serif;
+	height: 600px;
+
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: scroll;
+
+}
+
+.special-event:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.special-event{
+
+	width: 60%;
+	float: right;
+	margin-top: 160px;
+
+
+}
+.special-event h1{
+
+	text-align: center;
+	margin-bottom: 20px;
+	color: #E4002B;
+	font-size: 50px;
+	color: green;
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+
+}
+
+#getting-started{
+	font-family: 'Poiret One', serif;	
+	font-weight: bold;
+
+	text-align: center;
+	font-size: 30px;
+	color: red;
+
+}
+.body-special-area{
+
+	padding: 60px 0px;
+	background-color: rgba(255,0,0,.1);
+}
+
+.body-special-area h1{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+
+
+.special-content-area{
+
+}
+
+.special-area{
+
+	margin-top: 50px;
+}
+
+.special-area-content> a:first-of-type h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
+	color:black;
+
+}
+.special-area-content > a:last-of-type{
+	margin-top: 20px;
+	display: block;
+	background-color: red;
+	color: white;
+	padding: 10px 0px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 3px;
+
+}
+
+.special-area-content > div+h2 {
+	margin-bottom: 10px;
+	font-weight: bold;
+	color:black;
+
+}
+.special-area-content > h2+p {
+	margin-bottom: 10px;
+	font-weight: bold;
+	color:black;
+	letter-spacing: 1px;
+
+}
+
+.special-area-content{
+
+	padding: 10px;
+
+	transition: .6s;
+
+}
+
+.special-area-content:hover{
+	box-shadow: 1px 0px 1px 1px #7f8c8d;
+}
+
+
+
+
 
 
 
