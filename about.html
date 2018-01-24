@@ -104,7 +104,7 @@
 	<!-- End menu  -->
 
 
-	<div style="background-image: url('asserts/images/about.jpg');" class="page-title-header">
+	<div id="about-header" style="background-image: url('asserts/images/about.jpg');" class="page-title-header">
 		<div class="container">
 			<div class="page-title">
 				<h1>ABOUT</h1>
@@ -223,6 +223,19 @@
 
 		});
 
+	</script>
+
+
+	<!-- Parallax js -->
+	<script type="text/javascript"  src="asserts/js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript"  src="asserts/js/jquery.localscroll-1.2.7-min.js"></script>
+	<script type="text/javascript"  src="asserts/js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			$('#about-header').parallax("40%", .2);
+
+		});
 	</script>
 
 	

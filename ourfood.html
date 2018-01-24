@@ -19,6 +19,9 @@
 	<!-- Owl Coursel  -->
 	<link rel="stylesheet" href="asserts/css/slick.css">
 	<link rel="stylesheet" href="asserts/css/slick-theme.css">
+
+	<!-- Light gallery plugin -->
+	<link rel="stylesheet" href="asserts/css/lightgallery.min.css">
 	<link rel="stylesheet" href="asserts/css/style.css">
 
 </head>
@@ -97,7 +100,7 @@
 	</header>
 	<!-- End menu  -->
 	<!-- Page banner -->
-	<div style="background-image: url('asserts/images/page-banner.jpg');" class="page-title-header">
+	<div id="ourfood-header" style="background-image: url('asserts/images/page-banner.jpg');" class="page-title-header">
 		<div class="container">
 			<div class="page-title">
 				<h1>Our Food</h1>
@@ -116,7 +119,36 @@
 				<button type="button" class="control btn btn-default" data-filter=".pasta">Pasta</button>
 			</div>
 			<div class="items">
-				<div class="mix pizza">
+
+			<div id="lightgallery">
+				<a class="mix pizza" href="asserts/images/pz4.jpg">
+				    <img src="asserts/images/pz4.jpg" />
+				</a>
+				<a class="mix pasta" href="asserts/images/pas1.jpg">
+				    <img src="asserts/images/pas1.jpg" />
+				</a>
+
+				<a class="mix chicken" href="asserts/images/pz1.jpg">
+				    <img src="asserts/images/pz1.jpg" />
+				</a>
+				<a class="mix pasta" href="asserts/images/pas2.jpeg">
+				    <img src="asserts/images/pas2.jpeg" />
+				</a>
+
+				<a class="mix burger" href="asserts/images/bg4.png">
+				    <img src="asserts/images/bg4.png" />
+				</a>
+				<a class="mix pizza" href="asserts/images/pz3.jpg">
+				    <img src="asserts/images/pz3.jpg" />
+				</a>
+				<a class="mix chicken" href="asserts/images/ch4.png">
+				    <img src="asserts/images/ch4.png" />
+				</a>
+			 
+			</div>							
+
+
+<!-- 				<div class="mix pizza">
 					<img src="asserts/images/pz4.jpg" alt="">
 				</div>
 				<div class="mix pasta">
@@ -158,6 +190,7 @@
 				<div class="mix chicken">
 					<img src="asserts/images/ch4.png" alt="">
 				</div>
+				 -->
 			</div>
 		</div>
 	</div>
@@ -214,7 +247,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 	<script type="text/javascript"  src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
 	<script type="text/javascript"  src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 	<!-- Mix It Up -->
@@ -236,5 +268,30 @@
 			});
 		});
 	</script>
+
+	<!-- LightGallery plugin -->
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	        $("#lightgallery").lightGallery(); 
+	    });
+	</script>
+	<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+	<script src="asserts/js/lightgallery-all.min.js"></script>
+	<script src="asserts/js/lightgallery-all.min.js"></script>
+	<script src="asserts/js/jquery.mousewheel.min.js"></script>
+
+	<!-- Parallax js -->
+	<script type="text/javascript"  src="asserts/js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript"  src="asserts/js/jquery.localscroll-1.2.7-min.js"></script>
+	<script type="text/javascript"  src="asserts/js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			$('#ourfood-header').parallax("40%", .2);
+
+		});
+	</script>	
+
+
 </body>
 </html>
