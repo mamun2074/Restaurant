@@ -19,23 +19,19 @@ div,a, p, h1,h2,h3,h4,h5,h6,nav,ul{
 }
 
 header{
-
 	background-color: #E4002B;
-
 }
 
 .logo-area{
-	width: 70%;
-
-
-
+	/*width: 70%;*/
+	/*border: 1px solid black;*/
+	overflow: hidden;
 }
 .logo-area img{
 	width: 100%;
 	height: 100%;
 	padding: 10px;
 }
-
 
 .heaer-content-area ul{
 	list-style: none;
@@ -45,30 +41,24 @@ header{
 	display: inline-block;
 }
 
-
 /*Menu top*/
-
 .menu-top{
 
-	width: 60%;
-	margin-left: 40%;
+	width: 70%;
+	margin-left: 35%;
 	background-color: black;
 	padding: 15px 0px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-
-
+	/*border: 1px solid blue;	*/
 }
-
 .menu-top ul{
-
 	text-align: center;
-
 }
 .menu-top ul li{
 
 }
- .menu-top ul li a{
+.menu-top ul li a{
 	display: block;
 	color: white;
 	font-size: 16px;
@@ -79,55 +69,40 @@ header{
 	letter-spacing: 1px;
 
 }
- .menu-top ul li a[data-toggle="modal"]{
+.menu-top ul li a[data-toggle="modal"]{
 	color:white;
 	cursor: pointer;
 
 }
- .menu-top ul li a[data-toggle="modal"]:hover{
-
+.menu-top ul li a[data-toggle="modal"]:hover{
 	color:white;
 }
 
 /*Modal in login*/
-
 .modal-body{
 
 }
 
- .menu-top ul li .modal-body{
+.menu-top ul li .modal-body{
 	
 
 }
- .menu-top ul li .modal-body label{
+.menu-top ul li .modal-body label{
 	
 	font-weight: bold;
 	color: black;
 
 }
 
- .menu-top ul li .modal-body input{
-	
+.menu-top ul li .modal-body input{
 	display: block;
 	border:1px solid #E9ECEF;
-
 	margin: auto;
 	font-weight: bold;
 	color: black;
-
 	margin-bottom: 5px;
 	
 }
-
-
-
-
-
-
-
-
-
-
 
 .menu-top ul li input{
 	border: 1px solid transparent;
@@ -137,21 +112,15 @@ header{
 	color: #3498db;
 	font-weight: bolder;
 	letter-spacing: 2px;
-
 }
 
 .menu-top ul span{
 	font-size: 25px;
 }
 
-
-
-
 /*Main Menu*/
 .main-menu{
-
 	margin-top: 5%;
-
 }
 
 .main-menu ul{
@@ -171,8 +140,6 @@ header{
 	margin-bottom: 1px solid white;
 }
 
-
-
 .main-menu ul span{
 	font-size: 25px;
 	color: white;
@@ -182,13 +149,9 @@ header{
 	text-decoration: underline;
 }
 
-
-
-
 /*Home page Start*/
 
 /*Banner area */
-
 .banner-area{
 	font-family: 'Russo One', serif;	
 	width: 100%;
@@ -199,41 +162,34 @@ header{
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
-
 	background-position: 40% 0%;
-
-	height: 850px;
+	height: 650px;
 	max-height: 850px;
-
 	position: relative;
-
 	overflow: hidden;
-
-
 }
 
 .banner:after{
 	content: '';
-    width: 0px;
-    height: 0px;
-    border-top: 550px solid transparent;
-    border-left: 1346px solid yellow;
-    border-right: 100px solid transparent;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+	width: 0px;
+	height: 0px;
+	border-top: 550px solid transparent;
+	border-left: 1370px solid yellow;
+	border-right: 100px solid transparent;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
 
 }
 
 .banner-content{
-
 	position: absolute;
-	top: 65%;
+	top: 48%;
 	left: 5%;
-
 	width: 50%;
-
 	z-index: 999;
+	/*border:1px solid red;*/
 }
 
 .banner-content h1{
@@ -255,30 +211,21 @@ header{
 
 /*Burger area start*/
 
-
 .fried-bruger-area{
-
 	font-family: 'Russo One', serif;
-
-
 	background-color: yellow;
-	padding: 80px 0px;
-
+	/*padding: 80px 0px;*/
 
 }
 .fried-burger-content{
 	position: relative;
 
-
-
 }
 
 .fried-burger-content .img{
 	position: absolute;
-
 	top: 12%;
 	left: -50%;
-
 	width: 300px;
 	height: 300px;
 	transition: .2s;
@@ -290,25 +237,20 @@ header{
 }
 
 .fried-burger-content .img img{
-
 	width: 100%;
 	height: 100%;
-
 }
 
 .fried-burger-img-content{
 	position: relative;
 	z-index: 333px;
 	width: 65%;
-
 	margin-left:35%;
-
 }
 
 
 
 .fried-burger-img-content p:first-of-type{
-	
 	padding: 10px 12px;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -327,15 +269,11 @@ header{
 }
 
 .fried-burger-content-right {
-
 	padding: 40px;
 	text-align: center;
-
 	border:1px solid transparent;
 	box-shadow: 0px 0px 1px transparent;
-
 	transition: .2s;
-
 
 }
 .fried-burger-content-right:hover {
@@ -344,48 +282,40 @@ header{
 }
 
 .fried-burger-content-right h1 {
-	
 	font-size: 70px;
 	text-transform: uppercase;
-	
 	margin-bottom: 10px;
-
 
 }
 
 .fried-burger-content-right p{
-
 	font-size: 17px;
 	margin-bottom: 10px;
 
 }
 .fried-burger-content-right a{
-
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 10px 8px;
 }
-
 
 /*Latest blog news */
 
 .blog-latest-news-area{
 	padding: 80px 0px;
 	position: relative;
-
-
 }
 
 .blog-latest-curve-area:after{
-    content: '';
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    border-bottom: 450px solid transparent;
+	content: '';
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+    border-bottom: 359px solid transparent;
     border-left: 0px solid transparent;
-    border-right: 1366px solid yellow;
+    border-right: 1006px solid yellow;
 
 
 }
@@ -393,38 +323,40 @@ header{
 
 
 .blog-latest-img-area{
-	margin-top: 150px;
-	width: 70%;
-	padding: 10px;
+	/*margin-top: 150px;*/
+	/*width: 60%;*/
+	/*padding: 5px;*/
 	font-family: 'Russo One', serif;	
 	font-weight: lighter;
-
-
+	/*border:1px solid red;*/
+	margin-left: 0px;
+	padding-left: 0px;
 }
 .blog-latest-img-area h2{
-	
 	margin-bottom: 15px;
-
 }
 
 .blog-latest-img-area a img{
-		width: 500px;
-		height: 300px;
-		margin-bottom: 10px;
+	height: 300px;
+	margin-bottom: 10px;
+	/*padding: 0px 10px;*/
+	width: 95%
+
+
 }
 
 .blog-latest-img-area p+p{
-	width: 500px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
+	width: 95%
 
+}
 
 
 .news-hader{
 	font-family: 'Russo One', serif;
 	position: absolute;
-	top: 20%;
+	top: 0%;
 	right: 0px;
 
 	z-index: 999;
@@ -464,13 +396,127 @@ header{
 
 }
 
+/*Single page */
+
+.related-post-area{
+	margin-bottom: 20px;
+}
+.related-post-area h3{
+	margin-bottom: 10px;
+}
+.related-post-area ul{
+	list-style: none;
+	margin-left: 10px;
+}
+
+.related-post-area ul li{
+	
+}
+
+.related-post-area ul li a{
+	margin-bottom: 5px;
+	display: block;
+	transition: .5s;
+	font-size: 14px;
+}
+.related-post-area ul li a:hover{
+
+
+}	
+
+.comment-box-area{
+	/*border:1px solid red;*/
+
+}
+.comments-area h3{
+	margin-bottom: 20px;
+}
+.comment-box-area{
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.comment-box-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.comment-box-img{
+	width: 10%;
+	float: left;
+
+}
+.comment-box-img i{
+	font-size: 60px;
+	margin-left: 10px;
+
+}
+
+.comment-box-content{
+	float: left;
+	width: 85%;
+	margin-left: 10px;
+}
+.comment-box-content h5{
+	margin-bottom: 5px;
+}
+.comment-box-content p{
+	font-weight: normal;
+	font-style: italic;
+}
+
+.comment-form{
+	margin-top: 10px;
+}
+.comment-form h3{
+	margin-bottom: 15px;
+}
+
+.comment-form form{
+	margin-bottom: 10px;
+}
+
+.comment-form form input{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	outline: none;
+}
+
+.comment-form form textarea{
+	width: 100%;
+	height: 200px;
+	padding: 5px 10px;	
+	outline: none;
+
+}
+
+.comment-form form input[type='submit']{
+
+	text-transform: uppercase;
+	cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Our food page*/
 
 
 .page-title-header{
-		
+
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -1330,24 +1376,143 @@ header{
 
 
 
+/*========Contact menu area============*/
+
+.call-hotline-area{
+	background-color: yellow;
+	padding: 50px 0px;
+
+}
+.call-hotline-area .contact-us-header h1{
+	color: red;
+	font-weight: bold;
+
+}
+
+.call-hotline-area .contact-us-header h2{
+	text-align: center;
+	color:red;
+	font-size: 50px;
+	font-weight: bold;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+
+
+}
+
+.call-hotline-area .contact-us-header p{
+	font-family: 'Josefin Sans', sans-serif;
+	color: red;
+	text-align: center;
+	font-size: 30px;
+
+}
 
 
 
 
+.contact-us-area{
+	padding: 50px 0px;
+	background-color:#E4002B;
+
+}
+.contact-us-header h1{
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.contact-us-form{
+	/*border: 1px solid black;*/
+}
+.contact-us-form form input , .contact-us-form form textarea{
+	width: 100%;
+	padding: 10px 0px 10px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	border: 1px solid #E4002B;
+	color:red;
+	font-weight: bold;
+}
+
+.contact-us-form form input[type='text']:nth-child(1){
+	width: 49%;
+	float: left;
+}
+
+.contact-us-form form input[type='text']:nth-child(2){
+	width: 49%;
+	float: right;
+
+}
 
 
+.contact-us-form form input:focus , .contact-us-form form textarea:focus{
+	border: green;
+	border: 1px solid transparent;
+	outline: none;
+	box-shadow: 0px 0px 0px 0px transparent;
+}
+
+.contact-us-form form input::placeholder , .contact-us-form form textarea::placeholder{
+	color:red;
+	font-weight: bold;
+}
 
 
+.contact-us-form form button{
+	border: 1px solid transparent;
+	padding: 8px 16px;
+	display: block;	
+	border-radius: 5px;
+	text-transform: uppercase;
+	color:red;
+	font-weight: bold;
+	outline: none;
+}
+
+.about-img{
+	width: 100%;
+	height: 450px;
+	background-position: 0% 0%;
+
+}
+.about-img img{
+	width: 100%;
+	height: 100%;
+}
 
 
+.aobut-heder{
+	padding: 10px 0px;
+	background-color: yellow;
+}
+
+.aobut-heder h1{
+	text-align: center;
+	font-weight: bold;
+	color:black;
+	text-transform: uppercase;
+
+}
+
+.about-main{
+	font-family: 'Asar', serif;	
+	padding: 20px 0px;
+}
+
+.about-main h5{
+	
+	margin-bottom: 5px;
+}
 
 
-
-
-
-
-
-
+.about-main p{
+	margin-bottom: 15px;
+	
+}
 
 
 

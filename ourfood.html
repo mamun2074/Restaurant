@@ -3,25 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bpo Resturnt - Our food</title>
+	<!-- icon  -->
+	<link rel="shortcut icon" type="image/x-icon" href="asserts/images/icon.jpg">
+	
+	<!-- Google fonts -->
 
-<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One|Russo+One" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One|Russo+One" rel="stylesheet">
+	<!-- Front awesome -->
+	<link rel="stylesheet" href="asserts/css/font-awesome.min.css">
 
-<!-- Front awesome -->
-
-<link rel="stylesheet" href="asserts/css/font-awesome.min.css">
-
-<!-- Bootsrap cdn style -->
+	<!-- Bootsrap cdn style -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 	<!-- Owl Coursel  -->
-
 	<link rel="stylesheet" href="asserts/css/slick.css">
-
 	<link rel="stylesheet" href="asserts/css/slick-theme.css">
-
-
 	<link rel="stylesheet" href="asserts/css/style.css">
 
 </head>
@@ -29,248 +26,192 @@
 
 	<header>
 		<div class="container">
-
 			<div class="row header-area">
-				
-				<div class="col-md-3 header-logo">
-					
+				<div class="col-md-2 header-logo">					
 					<a href="index.html">
 						<div class="logo-area">
-						
 							<img src="asserts/images/logo.png" alt="">
 						</div>
 					</a>
-
 				</div>
-
-				<div class="col-md-9 heaer-content-area">
+				<div class="col-md-10 heaer-content-area">
 					<div class="heaer-content">
-						<div class="menu-top">
+						<!-- <div class="menu-top">
 							<ul>
-								<li><a href="#">Login</a></li>
+								<li>
+									Button trigger modal
+									<a data-toggle="modal" data-target="#exampleModal">Login</a>
+									Modal
+									<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Login</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<label for="">User Name or Email</label>
+						
+													<input type="text">
+						
+													<label for="">Password</label>
+													<input type="password">
+												</div>
+						
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-primary">Submit</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
 								<li><input type="email" placeholder="Email.." ></li>
 								<li><a href="#">Sign up</a></li>
-
 								<span>|</span>
-
 								<li><a href="#"> Help Center</a></li>
 							</ul>
-						</div>
-
+						</div> -->
 						<div class="main-menu">
 							<ul>
 								<li><a class="active"  href="ourfood.html">Our food </a></li>
 								<span>|</span>
-
-								<li><a href="offers.html">Offers</a></li>
-
+								<li><a href="offers.html">Chef's Special</a></li>
 								<span>|</span>
-
-								<li><a href="christmas.html">Christmas</a></li>
-									<span>|</span>
 								<li><a href="blog.html">Blog</a></li>
-									
-									<span>|</span>	
+
+								<span>|</span>	
 								<li><a href="career.html">Career</a></li>
-									
-									<span>|</span>
-								<li><a href="kids.html">Kids</a></li>
-
-
+								<span>|</span>
+								<li><a href="about.html">About</a></li>
+								<span>|</span>
+								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
-
 					</div>
-
-						
 				</div>
-
-
 			</div>
-
 		</div>
-
 	</header>
-
-
-
-<!-- End menu  -->
-
-
-
-<!-- Page banner -->
-
-
-<div style="background-image: url('asserts/images/page-banner.jpg');" class="page-title-header">
-	<div class="container">
-		<div class="page-title">
-			<h1>Our Food</h1>
+	<!-- End menu  -->
+	<!-- Page banner -->
+	<div style="background-image: url('asserts/images/page-banner.jpg');" class="page-title-header">
+		<div class="container">
+			<div class="page-title">
+				<h1>Our Food</h1>
+			</div>
 		</div>
 	</div>
-</div>
+	<div class="food-categories">
+		<div class="container">
+			<div class="controls">
+				<button type="button" class="control btn btn-default" data-filter="all">All</button>
+				<button type="button" class="control btn btn-default" data-filter=".pizza">Pizza</button>
+				<button type="button" class="control btn btn-default" data-filter=".chicken">Chicken</button>
 
+				<button type="button" class="control btn btn-default" data-filter=".burger">Burger</button>
 
-
-<div class="food-categories">
-	
-
-	<div class="container">
-		
-
-        <div class="controls">
-            <button type="button" class="control btn btn-default" data-filter="all">All</button>
-            <button type="button" class="control btn btn-default" data-filter=".pizza">Pizza</button>
-            <button type="button" class="control btn btn-default" data-filter=".chicken">Chicken</button>
-
-            <button type="button" class="control btn btn-default" data-filter=".burger">Burger</button>
-
-            <button type="button" class="control btn btn-default" data-filter=".pasta">Pasta</button>
-
-
-           
-
-        </div>
-
-
-
-        <div class="items">
-
-
-            <div class="mix pizza">
-            	<img src="asserts/images/pz4.jpg" alt="">
-            </div>
-
-            <div class="mix pasta">
-            	<img src="asserts/images/pas1.jpg" alt="">
-            </div>
-			
-
-
-
-            <div class="mix chicken">
-            	<img src="asserts/images/ch1.jpg" alt="">
-            </div>
-        	<div class="mix pizza">
-        		<img src="asserts/images/pz1.jpg" alt="">
-        	</div> 
-
-			<div class="mix pasta">
-            	<img src="asserts/images/pas2.jpeg" alt="">
-            </div>
-			
-
-            <div class="mix burger">
-            		<img src="asserts/images/bg4.png" alt="">
-            </div>
-            <div class="mix pizza">
-            	<img src="asserts/images/pz3.jpg" alt="">
-            </div>
-
-            <div class="mix pasta">
-            	<img src="asserts/images/pas3.jpeg" alt="">
-            </div>
-			
-            <div class="mix chicken">
-            	<img src="asserts/images/ch2.jpeg" alt="">
-            </div>
-            <div class="mix burger">
-            	<img src="asserts/images/bg2.png" alt="">
-            </div>
-            <div class="mix pasta">
-            	<img src="asserts/images/pas4.jpg" alt="">
-            </div>
-			
-            <div class="mix chicken">
-            	<img src="asserts/images/ch3.jpg" alt="">
-            </div>
-
-            <div class="mix burger">
-            	<img src="asserts/images/bg1.jpg" alt="">
-            </div>
-            <div class="mix chicken">
-            	<img src="asserts/images/ch4.png" alt="">
-            </div>
-
-
-
-        </div>
-
-
-
-	</div>
-
-</div>
-
-
-
-
-<!-- Footer start -->
-
-<footer>
-	<div class="container">
-		<div class="row footer-area">
-			<div class="col-md-3 footer">
-				<div class="footer-content">
-					<h4>Popular post</h4>
-					<ul>
-						<li><a href="#">Lorem ipsum dolor sit amet  distinctio </a></li>
-						<li><a href="#">consectetur adipisicing elit.</a></li>
-						<li><a href="#">Aut ratione nemo delectus doloremque </a></li>
-						<li><a href="#">Non fugit sunt, a aperiam</a></li>
-					</ul>
+				<button type="button" class="control btn btn-default" data-filter=".pasta">Pasta</button>
+			</div>
+			<div class="items">
+				<div class="mix pizza">
+					<img src="asserts/images/pz4.jpg" alt="">
+				</div>
+				<div class="mix pasta">
+					<img src="asserts/images/pas1.jpg" alt="">
+				</div>
+				<div class="mix chicken">
+					<img src="asserts/images/ch1.jpg" alt="">
+				</div>
+				<div class="mix pizza">
+					<img src="asserts/images/pz1.jpg" alt="">
+				</div> 
+				<div class="mix pasta">
+					<img src="asserts/images/pas2.jpeg" alt="">
+				</div>
+				<div class="mix burger">
+					<img src="asserts/images/bg4.png" alt="">
+				</div>
+				<div class="mix pizza">
+					<img src="asserts/images/pz3.jpg" alt="">
+				</div>
+				<div class="mix pasta">
+					<img src="asserts/images/pas3.jpeg" alt="">
+				</div>
+				<div class="mix chicken">
+					<img src="asserts/images/ch2.jpeg" alt="">
+				</div>
+				<div class="mix burger">
+					<img src="asserts/images/bg2.png" alt="">
+				</div>
+				<div class="mix pasta">
+					<img src="asserts/images/pas4.jpg" alt="">
+				</div>
+				<div class="mix chicken">
+					<img src="asserts/images/ch3.jpg" alt="">
+				</div>
+				<div class="mix burger">
+					<img src="asserts/images/bg1.jpg" alt="">
+				</div>
+				<div class="mix chicken">
+					<img src="asserts/images/ch4.png" alt="">
 				</div>
 			</div>
-
-			<div class="col-md-3 footer">
-				<div class="footer-content">
-					<h4>Social logo</h4> 
-
+		</div>
+	</div>
+	<!-- Footer start -->
+	<footer>
+		<div class="container">
+			<div class="row footer-area">
+				<div class="col-md-3 footer">
+					<div class="footer-content">
+						<h4>Popular post</h4>
+						<ul>
+							<li><a href="#">Lorem ipsum dolor sit amet  distinctio </a></li>
+							<li><a href="#">consectetur adipisicing elit.</a></li>
+							<li><a href="#">Aut ratione nemo delectus doloremque </a></li>
+							<li><a href="#">Non fugit sunt, a aperiam</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 footer">
+					<div class="footer-content">
+						<h4>Social logo</h4> 
 						<a href="#"><img src="asserts/images/facebook.gif" alt=""></a>
 						<a href="#"><img src="asserts/images/pixx.gif" alt=""></a>
 						<a href="#"><img src="asserts/images/youtube.gif" alt=""></a>
 						<a href="#"><img src="asserts/images/twitter.gif" alt=""></a>
 						<a href="#"><img src="asserts/images/skype.gif" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-3 footer">
+					<div class="footer-content">
+						<h4>Pages</h4>
+						<ul>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Kid</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Terms of us</a></li>
+							<li><a href="#">International </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 footer">
+					<div class="footer-content">
+						<h4>Address</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, asperiores ipsa illo porro culpa, enim at facere quia rem magni numquam explicabo, commodi voluptatibus? Dolore facilis animi natus dicta consectetur?</p>
+					</div>
 				</div>
 			</div>
-
-			<div class="col-md-3 footer">
-				<div class="footer-content">
-					<h4>Pages</h4>
-					<ul>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Kid</a></li>
-						<li><a href="#">Careers</a></li>
-						<li><a href="#">Terms of us</a></li>
-						<li><a href="#">International </a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-md-3 footer">
-				<div class="footer-content">
-					<h4>Address</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, asperiores ipsa illo porro culpa, enim at facere quia rem magni numquam explicabo, commodi voluptatibus? Dolore facilis animi natus dicta consectetur?</p>
-				</div>
-			</div>
-
-
-
-
-
 		</div>
-	</div>
-</footer>
-
-
-
-<!-- Bootsrap js  -->
+	</footer>
+	<!-- Bootsrap js  -->
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-
-
 
 	<script type="text/javascript"  src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
@@ -279,35 +220,21 @@
 	<!-- Mix It Up -->
 
 	<script  src="asserts/js/mixitup.min.js"></script>
-
 	<script type="text/javascript">
-
-		 var containerEl = document.querySelector('.items');
-
-		 var mixer = mixitup(containerEl);
-		
+		var containerEl = document.querySelector('.items');
+		var mixer = mixitup(containerEl);
 	</script>
-
-
-
 	<!-- Slick slider -->
 	<script type="text/javascript"  src="asserts/js/slick.min.js"></script>
-
 	<script type="text/javascript">
-		
-    $(document).on('ready', function() {
-
-	      $('.owl-carousel').slick({
-	      	slidesToShow: 2,
-	      	dots: true,
-	      	centerMode: false,
-	      	autoplay:true,
-	      });
-
-    });
-
+		$(document).on('ready', function() {
+			$('.owl-carousel').slick({
+				slidesToShow: 2,
+				dots: true,
+				centerMode: false,
+				autoplay:true,
+			});
+		});
 	</script>
-
-	
 </body>
 </html>
